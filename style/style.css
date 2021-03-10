@@ -5,6 +5,8 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-image: url(../img/bg3.jpeg);
+  /* background-size: cover; */
 }
 
 .container {
@@ -49,12 +51,15 @@ body {
 }
 
 .two {
-  font-size: 1.2rem;
-  font-weight: lighter;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: blueviolet;
 }
 
 .three {
   font-size: 3rem;
+  color: green;
+  font-style: italic;
 }
 
 .four .text-box {
@@ -124,7 +129,7 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
+  width: 200px;
   top: -35px;
   left: 41.5%;
   /* transform: scale(0.1); */
@@ -227,6 +232,10 @@ body {
   font-weight: lighter;
 }
 
+.lydia-dp {
+  width: 400px;
+  height: 100px;
+}
 #replay {
   z-index: 3;
   cursor: pointer;
